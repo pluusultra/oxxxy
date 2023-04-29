@@ -79,3 +79,19 @@
 .button:hover {
   background-color: rgba(29, 206, 250, 0.5);
 }
+
+@media screen and (max-width: 650px) {
+  .header {
+    flex-direction: column;
+  }
+  .header__text {
+    padding-bottom: 30px;
+    font-size: 40px;
+  }
+  .image {
+    padding-bottom: 20px;
+  }
+  .page__header {
+    padding-bottom: 40px;
+  }
+}
